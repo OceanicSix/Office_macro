@@ -9,7 +9,7 @@ Sub Change_FontName_By_Style()
     ' Prompt for style
     Message = "Which style do you need to modify?"
     Title = "InputBox"
-    Default = "Ax 6ÕýÎÄ"
+    Default = "Ax 6Ã•Ã½ÃŽÃ„"
     targetStyle = InputBox(Message, Title, Default)
     
     ' Check if the style exists in the active document
@@ -32,7 +32,7 @@ Sub Change_FontName_By_Style()
     ' Prompt for font name
     Message = "Which font name would you like to change to?"
     Title = "InputBox"
-    Default = "Arial"
+    Default = "Noto Sans S Chinese Bold"
     newFontName = InputBox(Message, Title, Default)
     
     If newFontName = "" Then
